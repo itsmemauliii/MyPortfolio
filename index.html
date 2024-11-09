@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mauli Patel | Data Science Portfolio</title>
+    <title>Mauli Patel - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav>
         <div class="logo">Mauli Patel</div>
-        <ul>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
@@ -22,15 +23,17 @@
     </nav>
 
     <!-- Home Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <img src="assets/profile.jpg" alt="Mauli Patel" class="profile-img">
+    <section id="home" class="home">
+        <div class="home-content">
+            <div class="profile-img-container">
+                <img src="https://via.placeholder.com/300" alt="Mauli Patel" class="profile-img">
+            </div>
             <h1>Mauli Patel</h1>
             <p>Data Science Professional | Machine Learning Enthusiast</p>
             <div class="social-links">
                 <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="assets/resume.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
         </div>
     </section>
@@ -49,22 +52,32 @@
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
-        <h2>Technical Skills</h2>
+        <h2>Skills</h2>
         <div class="skills-container">
             <div class="skill-category">
-                <h3>Programming</h3>
+                <h3>Programming Languages</h3>
                 <div class="skill-list">
-                    <span>Python</span>
-                    <span>R</span>
-                    <span>SQL</span>
+                    <div class="skill-item">
+                        <span>Python</span>
+                        <div class="skill-bar" style="width: 90%;"></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>SQL</span>
+                        <div class="skill-bar" style="width: 80%;"></div>
+                    </div>
                 </div>
             </div>
             <div class="skill-category">
                 <h3>Data Science</h3>
                 <div class="skill-list">
-                    <span>Machine Learning</span>
-                    <span>Deep Learning</span>
-                    <span>NLP</span>
+                    <div class="skill-item">
+                        <span>Machine Learning</span>
+                        <div class="skill-bar" style="width: 85%;"></div>
+                    </div>
+                    <div class="skill-item">
+                        <span>Data Visualization</span>
+                        <div class="skill-bar" style="width: 75%;"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,10 +85,10 @@
 
     <!-- Projects Section -->
     <section id="projects" class="projects">
-        <h2>Featured Projects</h2>
-        <div class="project-grid">
+        <h2>Projects</h2>
+        <div class="projects-container">
             <div class="project-card">
-                <img src="assets/projects/project1.jpg" alt="Fraud Detection">
+                <img src="https://via.placeholder.com/300" alt="Project 1">
                 <h3>Fraud Detection System</h3>
                 <p>Machine learning model to detect online payment fraud</p>
                 <div class="project-links">
@@ -83,7 +96,15 @@
                     <a href="#" class="btn">GitHub</a>
                 </div>
             </div>
-            <!-- Add more project cards -->
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Project 2">
+                <h3>Data Visualization Dashboard</h3>
+                <p>Interactive dashboard for data analysis</p>
+                <div class="project-links">
+                    <a href="#" class="btn">View Project</a>
+                    <a href="#" class="btn">GitHub</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -103,7 +124,6 @@
         <p>© 2024 Mauli Patel. All Rights Reserved.</p>
     </footer>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
