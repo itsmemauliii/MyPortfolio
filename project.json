@@ -10,7 +10,13 @@
             "title": "Data Science Jobs Salary Dashboard",
             "description": "Interactive Tableau dashboard for salary trends",
             "technologies": ["Tableau", "Data Visualization"],
-            "dashboardLink": "https://public.tableau.com/profile/username"
+            "dashboardLink": "https://public.tableau.com/app/profile/dataqueenmauli/vizzes"
+        },
+        {
+            "title": "Online Payment Fraud Detection",
+            "description": "Interactive Tableau dashboard for fraud detection",
+            "technologies": ["Tableau", "Data Visualization"],
+            "dashboardLink": "https://public.tableau.com/app/profile/dataqueenmauli/vizzes"
         }
     ]
 }
