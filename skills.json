@@ -4,12 +4,20 @@
         "SQL",
         "Machine Learning",
         "Data Visualization",
-        "Statistical Analysis"
+        "Statistical Analysis",
+        "Data Cleaning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Big Data Tools (e.g., Hadoop, Spark)"
     ],
     "soft_skills": [
         "Problem Solving",
         "Communication",
         "Team Collaboration",
-        "Leadership"
+        "Leadership",
+        "Adaptability",
+        "Time Management",
+        "Critical Thinking",
+        "Creativity"
     ]
 }
