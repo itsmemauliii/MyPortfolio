@@ -1,0 +1,163 @@
+:root {
+    --primary-pink: #FF1493;  /* Deep Pink */
+    --secondary-black: #121212;
+    --background-color: #1E1E1E;
+    --text-color-light: #FFFFFF;
+    --text-color-dark: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color-light);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+/* Responsive Navigation */
+header {
+    background-color: var(--secondary-black);
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: var(--primary-pink);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FF69B4;
+}
+
+/* Responsive Sections */
+section {
+    margin: 2rem 0;
+    padding: 1rem;
+    background-color: var(--secondary-black);
+    border-radius: 10px;
+}
+
+#home {
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, var(--secondary-black), var(--primary-pink));
+}
+
+#home h1 {
+    color: var(--primary-pink);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#home h2 {
+    color: var(--text-color-light);
+    font-size: 1.5rem;
+}
+
+/* Responsive Contact Form */
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    margin: 10px 0;
+    padding: 12px;
+    background-color: #2C2C2C;
+    border: 1px solid var(--primary-pink);
+    color: var(--text-color-light);
+    border-radius: 5px;
+}
+
+#contact-form button {
+    background-color: var(--primary-pink);
+    color: var(--text-color-light);
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+    background-color: #FF69B4;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--secondary-black);
+    color: var(--primary-pink);
+    padding: 1rem;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    #contact-form {
+        width: 100%;
+    }
+
+    #home h1 {
+        font-size: 1.8rem;
+    }
+
+    #home h2 {
+        font-size: 1rem;
+    }
+}
+
+/* Additional Responsive Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+section {
+    animation: fadeIn 1s ease-in;
+}

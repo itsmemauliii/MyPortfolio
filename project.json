@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {
+            "title": "Online Payment Fraud Detection",
+            "description": "Machine learning model to identify fraudulent transactions",
+            "technologies": ["Python", "Machine Learning", "Random Forest"],
+            "githubLink": "https://github.com/username/fraud-detection"
+        },
+        {
+            "title": "Data Science Jobs Salary Dashboard",
+            "description": "Interactive Tableau dashboard for salary trends",
+            "technologies": ["Tableau", "Data Visualization"],
+            "dashboardLink": "https://public.tableau.com/profile/username"
+        }
+    ]
+}
