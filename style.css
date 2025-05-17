@@ -1,0 +1,108 @@
+/* styles.css */
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#root {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1em;
+}
+
+ul li {
+    padding-left: 1.2em;
+    margin-bottom: 0.5em;
+    position: relative;
+}
+
+ul li::before {
+    content: "•";
+    color: #007bff;
+    position: absolute;
+    left: 0;
+}
+
+/* Sections */
+#root > div {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#root > div:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Social Links */
+#root > div:nth-child(2) a { /* Targeting the social links section */
+    margin-right: 15px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#root > div:nth-child(2) a:hover {
+    background-color: #eee;
+    border-color: #bbb;
+    text-decoration: none;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: #e9ecef;
+    color: #495057;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Add more styling as needed for other sections */
