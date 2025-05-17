@@ -1,69 +1,66 @@
-Hello! I'm **Mauli Patel**, a passionate data scientist in the making and a community-driven tech creator from Ahmedabad, India. I believe in the power of data to drive real change and this portfolio is a reflection of my journey in learning, building, and contributing to the world of data science.
+Hey there! I'm **Mauli Patel**, a data science graduate passionate about turning data into insight and impact. I specialize in Python, machine learning, visualization, and community-driven content. My portfolio reflects projects rooted in real-world problems—from fraud detection to customer analytics.
 
 ---
 
-## 🔍 About Me
+## 🚀 Featured Projects
 
-🎓 Currently pursuing an M.Sc. in Big Data & Analytics at **St. Xavier’s College**, Ahmedabad  
-💡 Founder of **Scamternship Stories** – an initiative raising awareness about fake internships  
-📊 Content creator at **Tech Data Hub**, sharing simplified data science content with 300+ learners  
-🚀 LinkedIn strategist helping AI & data professionals grow with optimized content and profiles  
+### 1. Scamternship Detector – 🔍 Scam Internship Awareness App
+- **Built with:** Streamlit, Python
+- Raised awareness of unethical hiring by crowdsourcing stories from victims.
+- [🔗 Live App](https://scamternship-stories.streamlit.app)
 
----
+### 2. British Airways Reviews Dashboard – ✈️ Tableau Analytics
+- **Built with:** Tableau, Excel
+- Explored customer satisfaction using real airline reviews.
+- [📊 See Dashboard](https://public.tableau.com/app/profile/dataqueenmauli/viz/BritishAirwaysReviews_17365980152450/BritishAirwaysReviews)
 
-## 💼 Featured Projects
-
-### 🛡️ Scamternship Detector  
-- **Tool:** Streamlit, Python  
-- A web app collecting real-life scam internship stories to protect students from fraud.  
-🔗 [Live App](https://scamternship-stories.streamlit.app/)
-
-### ✈️ British Airways Reviews Dashboard  
-- **Tool:** Tableau  
-- Interactive dashboard analyzing customer satisfaction across multiple travel dimensions.  
-🔗 [View Dashboard](https://public.tableau.com/app/profile/dataqueenmauli/viz/BritishAirwaysReviews_17365980152450/BritishAirwaysReviews)
+### 3. Sentiment Analysis of Product Reviews – 🛍️ NLP Project
+- **Built with:** NLTK, Pandas
+- Analyzed reviews to classify positive/negative sentiment with visuals.
+- [📘 View Notebook](#)
 
 ---
 
-## 🧠 Skills
+## 📚 Education & Learning
 
-- **Languages & Tools:** Python, SQL, Tableau, Jupyter Notebook, Git  
-- **Libraries & Tech:** Pandas, NumPy, Matplotlib, Scikit-learn, Streamlit  
-- **Data Systems:** Oracle, NoSQL, Hive, Pig  
-- **Soft Skills:** Content Writing, Project Management, Community Leadership
+- **MSc in Big Data & Analytics**, St. Xavier’s College, Ahmedabad *(2024–2026)*  
+- **BSc in Information Technology**, GLS University *(2021–2024)*  
 
 ---
 
-## 🏆 Achievements
+## 🧠 Skills Snapshot
 
-- 🥇 **Rank 1** on GLS Coding Ninjas Leaderboard – Level 7 Expert  
-- 🌍 **Global Rank 5115** on Unstop among data analytics participants  
-- 🧠 Delivered technical talks on Machine Learning, Linear Algebra, Deepfake Detection & more  
-- 🧾 Author of literature reviews on **Work-Life Balance** and **Deepfake Detection using Data Science**  
+| Language     | Tools           | Libraries             | Soft Skills               |
+|--------------|------------------|------------------------|---------------------------|
+| Python       | Git, Tableau     | Pandas, Sklearn, Numpy | Leadership, Content Writing |
+| SQL          | Jupyter Notebook | Matplotlib, Streamlit  | Research, Public Speaking  |
 
 ---
 
 ## 📜 Certifications
 
-- IBM Data Fundamentals – IBM  
-- BCG Data Science Job Simulation – Forage  
-- TATA Crucible Campus Quiz – Unstop  
-- Data Science Certification – Great Learning  
-- Nestlé E-learning Program – Nestlé  
+- 🧠 Data Science – Great Learning, IBM, BCG (Forage)  
+- 🧪 Core Concepts in Analytics – Unstop  
+- 🎯 TATA Crucible Quiz Participant
 
 ---
 
-## 📫 Connect With Me
+## 🏆 Achievements
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/itsmemauliii)  
-- 🐙 [GitHub](https://github.com/itsmemauliii)  
-- 📧 Email: maulipatel18112003@gmail.com  
-- 📱 Instagram: [@tech_data_hub_](https://instagram.com/tech_data_hub_)
+- 🎖️ Top 1% on Unstop (Global Rank: 5115)  
+- 🏅 Level 7 Expert on Coding Ninjas  
+- 📢 Speaker & Researcher – Deepfake Detection, Lifestyle Analytics  
 
 ---
 
-> “I don't just work with data — I tell its story, amplify its voice, and use it to build something that matters.”  
+## 📫 Let's Connect
+
+- [LinkedIn](https://www.linkedin.com/in/itsmemauliii)  
+- [GitHub](https://github.com/itsmemauliii)  
+- [Email](mailto:maulipatel18112003@gmail.com)  
+- [Instagram – Tech Content](https://instagram.com/techdatahub)
+
+---
+
+> *“I use data not just to analyze—but to advocate, protect, and solve.”*  
 > — Mauli Patel
-
----
-
